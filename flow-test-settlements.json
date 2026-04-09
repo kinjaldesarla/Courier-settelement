@@ -1,0 +1,41 @@
+{
+  "batchId": "FLOW-2026-04-09-A",
+  "rows": [
+  {
+    "awbNumber": "AWB00000005",
+    "settledCodAmount": 300,
+    "chargedWeight": 2,
+    "forwardCharge": 120,
+    "rtoCharge": 0,
+    "codHandlingFee": 30,
+    "settlementDate": "2026-04-09"
+  },
+  {
+    "awbNumber": "AWB00000003",
+    "settledCodAmount": 500,
+    "chargedWeight": 1,
+    "forwardCharge": 90,
+    "rtoCharge": 220,
+    "codHandlingFee": 25,
+    "settlementDate": "2026-04-09"
+  },
+  {
+    "awbNumber": "AWB00000015",
+    "settledCodAmount": 1200,
+    "chargedWeight": 9,
+    "forwardCharge": 150,
+    "rtoCharge": 0,
+    "codHandlingFee": 40,
+    "settlementDate": "2026-04-09"
+  },
+  {
+    "awbNumber": "AWB00000045",
+    "settledCodAmount": 1100,
+    "chargedWeight": 1,
+    "forwardCharge": 80,
+    "rtoCharge": 0,
+    "codHandlingFee": 20,
+    "settlementDate": "2026-04-09"
+  }
+]
+}

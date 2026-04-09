@@ -1,0 +1,21 @@
+{
+  "name": "courier-worker",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "dependencies": {
+    "bullmq": "^5.58.0",
+    "dotenv": "^16.6.1",
+    "mongoose": "^8.18.0"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.2.0",
+    "vitest": "^2.1.9"
+  },
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "vitest run"
+  }
+}
+

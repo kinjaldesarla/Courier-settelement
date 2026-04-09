@@ -1,0 +1,28 @@
+{
+  "name": "courier-backend",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "seed": "node src/seed/seed.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "bullmq": "^5.58.0",
+    "mongoose": "^8.18.0",
+    "multer": "^1.4.5-lts.2",
+    "nanoid": "^5.1.5"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.2.0",
+    "supertest": "^7.1.4",
+    "vitest": "^2.1.9"
+  }
+}
+
